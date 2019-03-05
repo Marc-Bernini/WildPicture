@@ -1,0 +1,16 @@
+.navbar-nav{
+
+    margin-left: 30%;
+     
+
+}
+.nav-link:hover{
+overflow: hidden;
+ 
+  background-color: red;
+}
+.dropdown-item{
+       overflow: hidden;
+ 
+  background-color: red;
+}
