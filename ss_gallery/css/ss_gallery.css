@@ -1,21 +1,30 @@
-.list_image{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+img{
+    text-align: center;
 }
+
+
+.modal {
+    width: auto !important;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgba(250,250,250,.3);
+}
+.modal-dialog{
+    margin: 0;
+}
+
+.modal-dialog, .modal {
+    max-width: none !important;
+}
+
 .sectimg{
     margin: 5px;
     border-radius: 3%;
     overflow: hidden;
     align-self: center;
 }
-img{
-    text-align: center;
-}
-.modal-dialog{
-    min-width: 80vw;
-   min-height: 80vh;
-}
+
 @media screen and (min-width: 920px){
     .list_image{
         display: grid;
