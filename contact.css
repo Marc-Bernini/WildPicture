@@ -1,0 +1,21 @@
+/*!-- ///////////// CONTACT FORM /////////////////--> */
+.container_Form
+{
+    background-image:url(paysage-backround-contact.jpg);
+    max-width: 100%;
+    height: auto;
+}
+
+.form-group
+{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.button_Container
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
