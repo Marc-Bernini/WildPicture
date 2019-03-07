@@ -94,7 +94,7 @@
         -moz-filter: sepia(1);
         -o-filter: sepia(1);
         -ms-filter: sepia(1);
-        border-radius: 45%;
+        border-radius: 40%;
 }
 .sepia img:hover
 {
