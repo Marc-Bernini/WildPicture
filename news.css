@@ -1,25 +1,19 @@
 .media {
     margin-top: 5%;
 }
-
 .buton {
     display: flex;
     justify-content: end;
 }
-
-footer {
-    background-color: #333;
-    padding: 3%;
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-around;
-}
-
 .btn {
     background-color: #333;
     color: white;
 }
-
 h5, p {
     color: #333;
 }
+a:hover .btn {
+    background-color:#6B6B6B;
+    color: #FFF;
+}
+
