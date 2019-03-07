@@ -1,0 +1,49 @@
+/*!-- ///////////// CONTACT FORM /////////////////--> */
+.justify-content-center
+{
+	margin: 0px;
+}
+
+.container_Form
+{
+    background-image:url(paysage-backround-contact.jpg);
+    max-width: 100%;
+    height: auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.form-group
+{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	font-style: italic;
+}
+
+.form-control
+{
+	font-style: italic;
+}
+
+.button_Container
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.btn-lg
+{
+	background-color: #333;
+	color: #fff;
+    border-color: #333;
+	border-radius: .25rem;
+	border: 1px solid transparent;
+	margin-top: 1em;
+}
+
+.btn-lg:hover
+{
+	background-color: #6b6b6b;
+	border-color: #333;
+}
