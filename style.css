@@ -1,0 +1,74 @@
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Bug marge négative div du logo */
+.justify-content-center
+{
+    margin: 0px;
+}
+
+.navbar-nav{
+    color: #333;
+    width: 60%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.container
+{
+    width: 100%;
+}
+
+.navbar-expand-lg {
+    box-shadow: 0px 4px 2px 0px #333;
+}
+
+.nav-link:hover{
+  overflow: hidden; 
+  background-color: grey;
+  border-radius: 10%;
+
+}
+.dropdown-menu{
+    overflow: hidden;
+    border-radius: 10%;
+    background-color:#333;
+    
+}
+.dropdown-item {
+    border-radius: 10%;
+    color: beige;
+}
+
+h1{
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+@media screen and (max-width: 1000px)
+{
+    button.navbar-toggler
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul.navbar-nav
+    {
+        text-align: center;
+    }
+    .dropdown-item
+    {
+        text-align: center;
+    }
+}
