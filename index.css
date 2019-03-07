@@ -1,0 +1,9 @@
+.jumbotron {
+    background-color: #f0f0f0;
+}
+.jumbotron h1 p {
+    color:#333;
+}
+div[class="container card mb-10 border-0"] {
+    margin-top: 2%;
+}
