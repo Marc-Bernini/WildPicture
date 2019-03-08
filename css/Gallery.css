@@ -1,0 +1,113 @@
+.navbar-nav{
+
+    margin-left: 35%;
+    color: #333;
+    
+}
+.nav-link:hover{
+
+  overflow: hidden; 
+  background-color: grey;
+  border-radius: 10%;
+
+}
+.dropdown-menu{
+    overflow: hidden;
+    border-radius: 10%;
+    background-color:#333;
+    
+}
+.dropdown-item {
+
+    border-radius: 10%;
+    color: beige;
+}
+.card-deck {
+
+    margin-top: 20%;
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+@media all and(min-width:180px)and(max-width:780px)
+{
+	.card-deck {
+		margin-bottom: 20%;
+	}
+}
+
+.holidays{
+    position:relative;
+    display:inline-block;
+  
+  }
+  
+  .holidays::before{
+    content:url(http://www.exemple.com/test.png);
+    display:block;
+    position:absolute; 
+    top:0px;left:0px;bottom:0px;right:0px;
+    background: url('https://zupimages.net/up/19/10/4cy9.png') top left / 100%;
+  }
+  
+  .holidays:before{
+    opacity:0;
+    transition:all 1s;
+  }
+  
+  .holidays:hover:before{
+    opacity:1;
+  }
+  
+  .people{
+    position:relative;
+    display:inline-block;
+  
+  }
+  
+  .people::before{
+    content:url(http://www.exemple.com/test.png);
+    display:block;
+    position:absolute; 
+    top:0px;left:0px;bottom:0px;right:0px;
+    background: url('https://zupimages.net/up/19/10/0bbp.png') top left / 100%;
+  }
+  
+  .people:before{
+    opacity:0;
+    transition:all 1s;
+  }
+  
+  .people:hover:before{
+    opacity:1;
+  }
+  
+  .urban{
+    position:relative;
+    display:inline-block;
+  
+  }
+  
+  .urban::before{
+    content:url(http://www.exemple.com/test.png);
+    display:block;
+    position:absolute; 
+    top:0px;left:0px;bottom:0px;right:0px;
+    background: url('https://zupimages.net/up/19/10/6ip6.png') top left / 100%;
+  }
+  
+  .urban:before{
+    opacity:0;
+    transition:all 1s;
+  }
+  
+  .urban:hover:before{
+    opacity:1;
+  }
+
+footer {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
