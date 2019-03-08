@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .jumbotron {
     background-color: #f0f0f0;
 }
@@ -7,3 +8,66 @@
 div[class="container card mb-10 border-0"] {
     margin-top: 2%;
 }
+=======
+*{
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-nav{
+
+  margin-left: 35%;
+  color: #333;
+  
+}
+.nav-link:hover{
+
+overflow: hidden; 
+background-color: grey;
+border-radius: 10%;
+
+}
+.dropdown-menu{
+  overflow: hidden;
+  border-radius: 10%;
+  background-color:#333;
+  
+}
+.dropdown-item {
+
+  border-radius: 10%;
+  color: beige;
+}
+
+h1{
+  text-align: center;
+}
+.text-center{
+  text-align: left;
+}
+.media-body{
+  margin-top: 3%;
+}
+.media:nth-child(2n+1){
+  text-align: left;
+}
+.media:nth-child(2n){
+  text-align: right;
+}
+footer {
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  padding: 3%;
+}
+/* .media{
+margin-left: 15%;
+justify-content: left;
+}
+.media:nth-child(2n){
+width: 50%;
+margin-left: 10%;
+} */
+
+>>>>>>> f2d4f1ebb649f5def51e940b6833f2913929ae42
