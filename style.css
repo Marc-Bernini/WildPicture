@@ -6,21 +6,52 @@
 body{
   margin-top: 30px;
 }
-
+.pbody{
+  height: 100%;
+  position: relative;
+}
+.imageBackground{
+  z-index: 2000;
+  transition: transform .5s ;
+  transform: scale(1.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-left: 10%;
+  background-position: center center;
+  content: '';
+  border: 2px solid #eee;
+  position: fixed;
+  top: 10%;
+  left: 10vw;
+  bottom: 0;
+  right: 0;
+}
+.backgroundFilter{
+  
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  position: fixed;
+  top:0;
+  left: 0;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
 .logo{
   position:fixed
 }
 .navbar{
-<<<<<<< HEAD
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-=======
   position: fixed;
   top: 0;
   width: 100%;
->>>>>>> 14cfb99f8fad7fc87544ca1b9e422a3c961ec28a
+  z-index: 1;
+}
+.carousel img{
+  width: 100%;
 }
 
 div[class="row margin-bottom"] {
@@ -35,7 +66,9 @@ div[class="row margin-bottom"] {
   margin-right: auto; 
  
 }
-
+.ih-item{
+  margin-left: 25%;
+}
 
 .container
 {

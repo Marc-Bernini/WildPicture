@@ -2,9 +2,6 @@
 
 //Code js to zoom img when clicked
 
-let image1 = document.getElementById('img1')
-
-let variable = 'imageContact.jpg'
 let switchModal = false
 const onClickImg = param => {
     //let truc = this.id //document.getElementById("'" + truc + "'")
@@ -18,6 +15,7 @@ const onClickImg = param => {
         }else{
             selectedImg.classList.remove("imageBackground")
             divBackground.classList.remove("backgroundFilter")
+            divBackground.style.backgroundImage = ""
             switchModal = false
         }
     
