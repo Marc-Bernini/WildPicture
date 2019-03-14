@@ -1,0 +1,15 @@
+#bloc{
+  margin: 10% 0 10% 20%
+}
+#bloc p{
+text-align: justify;
+}
+
+.photographer{
+  width:365px;
+  height:400px;
+}
+
+.col-md-8{
+  margin-bottom: 25%;
+}
