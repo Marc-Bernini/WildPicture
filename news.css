@@ -1,0 +1,54 @@
+.media {
+    margin-top: 5%;
+}
+.buton {
+    display: flex;
+    justify-content: end;
+}
+.btn {
+    background-color: #333;
+    color: white;
+}
+h5, p {
+    color: #333;
+}
+a:hover .btn {
+    background-color:#6B6B6B;
+    color: #FFF;
+}
+.titleExposures {
+    background-image: url(http://www.insituparis.fr/cspdocs/artwork/portfolio/patrick_tosani_in_situ_fabienne_leclerc_5791_5.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 5%;
+    width: 100%;;
+}
+h1 {
+    color:#FFF;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 2%;;
+    opacity: 0.9;
+    font-size: 5em;
+}
+.titleEvents {
+    background-image: url(http://images6.fanpop.com/image/photos/39400000/Concert-concerts-39454867-1920-1080.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 5%;
+}
+@media screen and (max-width: 1000px) {
+    h1{
+        font-size: 3em;
+    }
+}

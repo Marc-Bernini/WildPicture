@@ -1,0 +1,70 @@
+/*!-- ///////////// CONTACT FORM /////////////////--> */
+.justify-content-center
+{
+	margin: 0px;
+}
+
+.background_Image {
+	background-image:url(https://i.ibb.co/vXJFdR2/art-de-rue-new-york-city-52097936-jpg.png,);
+	background-size: cover;
+}
+
+.container_Form
+{
+    height: auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.form-group
+{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	font-style: italic;
+}
+
+.form-control
+{
+	font-style: italic;
+}
+
+.button_Container
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.btn-lg
+{
+	background-color: #333;
+	color: #fff;
+    border-color: #333;
+	border-radius: .25rem;
+	border: 1px solid transparent;
+	margin-top: 1em;
+}
+
+.btn-lg:hover
+{
+	background-color: #6b6b6b;
+	border-color: #333;
+}
+
+.map {
+    text-align: center;
+}
+
+.map iframe {
+    width: 90%;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+form {
+	background-color: rgba(138, 138, 138, 0.62);
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+}
