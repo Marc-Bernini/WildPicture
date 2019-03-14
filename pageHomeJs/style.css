@@ -2,16 +2,44 @@
   border: none;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
+body{
+  margin-top: 30px;
+}
+
+.logo{
+  position:fixed
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+div[class="row margin-bottom"] {
+  margin-bottom: 5%;
+}
+
 .navbar-nav{
-
-  margin-left: 35%;
   color: #333;
-  
+  width: 80%;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto; 
+ 
 }
-.nav-link:hover{
 
+
+.container
+{
+  width: 100%;
+}
+
+.navbar-expand-lg {
+  box-shadow: 0px 4px 2px 0px #333;
+}
+
+.nav-link:hover{
 overflow: hidden; 
 background-color: grey;
 border-radius: 10%;
@@ -24,7 +52,6 @@ border-radius: 10%;
   
 }
 .dropdown-item {
-
   border-radius: 10%;
   color: beige;
 }
@@ -32,23 +59,78 @@ border-radius: 10%;
 h1{
   text-align: center;
 }
-.text-center{
-  text-align: left;
-}
-.media-body{
-  margin-top: 3%;
-}
-.media:nth-child(2n+1){
-  text-align: left;
-}
-.media:nth-child(2n){
-  text-align: right;
-}
+/*Footer*/
 footer {
   background-color: #333;
+  padding: 1%;
+}
+.footerContact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  font-style: italic;
+}
+
+.footerContact p {
+  font-size: 1em;
+  color:beige;
+  margin-bottom: 0px;
+}
+
+.dash {
+  height: 20px;
+  width: 1px;
+  background-color: #717154;
+}
+
+.socialMedia{
   display: flex;
   justify-content: space-around;
-  padding: 3%;
+  align-items: center;
+}
+
+
+
+/*Fin Footer*/
+@media screen and (max-width: 1000px)
+{
+  button.navbar-toggler
+  {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  ul.navbar-nav
+  {
+      text-align: center;
+  }
+  .dropdown-item
+  {
+      text-align: center;
+  }
+  #text img{
+      margin-left: auto;
+      margin-right:auto;
+  }
+  #text p{
+      text-align:center;
+  }
+  .footerContact p {
+      font-size: 0.5em;
+  }
+  .footerContact p {
+      font-size: 0.4em;
+  }
+  .socialMedia img{
+      height:30px;
+  }
+  .footerContact {
+      width: 80%;
+      margin-top: 15px;
+  }
 }
 /* le css des photos ajoutées en js */
 .container{
@@ -61,4 +143,5 @@ footer {
 .col-sm-6{
   margin-top: 6%;
 }
+
 
