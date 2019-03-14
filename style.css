@@ -59,27 +59,40 @@ h1{
 }
 /*Footer*/
 footer {
-    display: flex;
-    justify-content: space-between;
     background-color: #333;
     padding: 1%;
-    margin-top:5%;
-    width: 105%;
 }
+.footerContact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-style: italic;
+}
+
 .footerContact p {
     font-size: 1em;
     color:beige;
-    margin-bottom: 0%;
-    margin-left: 3%;
-    width: 100%;
+    margin-bottom: 0px;
 }
+
+.dash {
+    height: 20px;
+    width: 1px;
+    background-color: #717154;
+}
+
 .socialMedia{
-    width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 5%;
 }
+
+
+
 /*Fin Footer*/
 @media screen and (max-width: 1000px)
 {
@@ -111,5 +124,9 @@ footer {
     }
     .socialMedia img{
         height:30px;
+    }
+    .footerContact {
+        width: 80%;
+        margin-top: 15px;
     }
 }
