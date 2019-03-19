@@ -1,2 +1,0 @@
-# WildPicture
-Projet 1
