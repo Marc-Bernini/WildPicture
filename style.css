@@ -104,6 +104,8 @@ footer {
   background-color: #333;
   padding: 1%;
 }
+
+
 .footerContact {
   display: flex;
   align-items: center;
@@ -132,7 +134,12 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-
+.socialMedia a:hover{
+  transition: transform .5s;
+  transform: scale(1.15);
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgba(255,255,255,.5);
+}
 
 
 /*Fin Footer*/
