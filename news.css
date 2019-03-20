@@ -11,6 +11,7 @@
 }
 h5, p {
     color: #333;
+    text-align: justify;
 }
 a:hover .btn {
     background-color:#6B6B6B;
