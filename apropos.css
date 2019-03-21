@@ -1,11 +1,18 @@
-#bloc{
-  margin: 10% 0 10%;
+.container{
+  margin-top: 15%;
+  margin-bottom: 10%;
 }
-#bloc p{
+.container p{
 text-align: justify;
+padding: 0 2%;
 }
 
-.photographer{
+#truc{
+  text-align: justify;
+  padding: 0 2%;
+}
+
+.profilpicphotographer{
   width:365px;
   height:400px;
 }
@@ -13,7 +20,73 @@ text-align: justify;
 .col-md-8{
   margin-bottom: 25%;
 }
-iframe{
-  margin-left: 20%;
-  margin-bottom: 5%;
+.container{
+  display: flex;
 }
+.card{
+  width: 60%;
+  height: 40%;
+  margin-top: -5%;
+}
+iframe{
+  margin-left: 10%;
+  margin-bottom: 5%;
+  margin-top: -5%;
+}
+
+#backLine{
+  min-width: 100%;
+  position: relative;
+  border-bottom: 1px solid #C0C0C0;
+  margin-top: 10%;
+}
+h2{
+  position: absolute;
+  margin-top: -5%;
+  left: calc(50% - 68px);
+  background: white;
+  padding: 0 2%;
+
+}
+#profil{
+  overflow: hidden;
+  max-width: 100%;
+  margin-right: 15px;
+}
+@media (min-width: 580px){
+  h2{
+    margin-top: -1.75%;
+  }  
+  .row{
+    flex-wrap : nowrap;
+  }
+  
+}
+ @media (max-width: 750px){
+   #backLine{
+    margin-top: 30%;
+   }
+   
+   .container{
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 100%;
+    margin-left: 2%;
+  }
+  iframe{
+    width: 98%;
+    height: 350px;
+    margin-left:2% ;
+    margin-top: 4%;
+  }
+ }
+ blockquote {
+  float: left;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 13px;
+  border-left: 15px solid #eee;
+  position: relative;
+ }
