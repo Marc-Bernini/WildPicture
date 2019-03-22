@@ -1,29 +1,281 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="styles/ihover.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="home.css" />
+    <link href = "styles/ihover.css" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam:300,400|Marck+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
     <title>Wild Picture</title>
-  </head>
-  <body>
-    <h1><img id = "logo" src="logos-Wild-Picture.png" alt="Eagle4Wild"></h1>
-    <navbar>
+    <link rel="stylesheet" type="text/css" href="cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+"palette": {
+"popup": {
+"background": "#000"
+},
+"button": {
+"background": "#f1d600"
+}
+}
+})});
+</script>
+</head>
 
-    </navbar>
-    <section class="infos row">
-        <div class="offset-1 col-5">
-            <img src="">
-            <p>u sdfvdf vf v vfvf xvfvd </p>
+<body>
+    <header>
+        <navbar>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="logo">
+            <a class="navbar-brand" href="#">
+            <img src="https://zupimages.net/up/19/11/8lmw.png" alt="logo">
+            </a>
+            </div>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdownMenuLink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Gallery
+            </a>
+            
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="ss_gallery1.html">Collaboration</a>
+            <a class="dropdown-item" href="ss_gallery3.html">Publication</a>
+            <a class="dropdown-item" href="ss_gallery2.html">Personnal project</a>
+            
+            </div>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+            </li>
+            
+            <li class="nav-item">
+            <a class="nav-link" href="apropos.html">About</a>
+            </li>
+            
+            <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            </ul>
+            </div>
+            </nav>
+            </navbar>
+    </header>
+
+    <!-- ##########################################"carousel#########################################################################""-->
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://zupimages.net/up/19/12/2cfr.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://zupimages.net/up/19/12/53qt.jpg" class="d-block" alt="...">
+                 
+            
+                </div>
+                <div class="carousel-item">
+                    <img src="https://zupimages.net/up/19/12/z5t7.jpg" class="d-block" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button black" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-    </section>
+    </div>
+    <hr>
+    <!-- #################################################################################################################"" -->
+    <div class="container">
+        <div class="col-lg-9 col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="https://zupimages.net/up/19/12/rlth.jpg"
+                    alt="">
+                <div class="overlay">
+                    <h2 class="h3">News</h2>
+                      <p>Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, 
+                        consectetur Nulla fringilla purus at leo dignissim congue…<br> <a href="news.html" class="badge badge-dark">Click Her</a>
+                       </p>     
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class="row A">  
+            <div class="row justify-content-center h3 brdABout">
+                    <h3>About Me<span class="badge badge-secondary"></span></h3>
+                </div>
+            <div class="card" style="width: 19rem;">
+              
+                <img src="http://demowp.cththemes.net/springbook/wp-content/uploads/2016/11/about-sb.jpg"
+                    class="card-img-top" alt="...">
+
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                        <div class="row justify-content-center">
+                    <p><a class="btn btn-secondary" href="apropos.html" role="button">View details &raquo;</a></p>
+                        </div>
+                </div>
+            </div>
+        </div>
     
-    <!-- Optional JavaScript -->
+    <hr>
+    <!-- ########################################################"################################################################"""""" -->
+
+    <div class="row justify-content-start air">
+                    <div class="col-md-8 ombre">
+                        <div class="row justify-content-center h3">
+                            <h3>Popup Gallery <span class="badge badge-secondary"></span></h3>
+                        </div>
+                        <div class="row">
+                            <a href="https://zupimages.net/up/19/12/lf3r.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                <img src="https://zupimages.net/up/19/12/lf3r.jpg" class="img-fluid">
+                            </a>
+                            <a href="https://zupimages.net/up/19/12/px5c.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                <img src="https://zupimages.net/up/19/12/px5c.jpg" class="img-fluid">
+                            </a>
+                            <a href="https://zupimages.net/up/19/12/i92b.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                <img src="https://zupimages.net/up/19/12/i92b.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="row">
+                            <a href="https://zupimages.net/up/19/12/phkn.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                <img src="https://zupimages.net/up/19/12/phkn.jpg" class="img-fluid">
+                            </a>
+                            <a href="https://zupimages.net/up/19/12/u479.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                <img src="https://zupimages.net/up/19/12/u479.jpg" class="img-fluid">
+                            </a>
+                            <a href="https://zupimages.net/up/19/12/px5c.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                <img src="https://zupimages.net/up/19/12/px5c.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="row justify-content-center">
+                        <p><a class="btn btn-secondary botn" href="gallery.html" role="button">View details &raquo;</a></p></div>
+                    </div>
+               
+        
+<!-- """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" -->
+
+         
+            <div class="card C" style="width: 18rem;">
+                    <div class="card-header h3">RECENT POSTS</div>
+            <ul class="list-unstyled">
+                    <li class="media D">
+                      <img src="http://demowp.cththemes.net/springbook/wp-content/uploads/2016/07/2-50x50.jpg" class="mr-3 rounded-circle" alt="...">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">List-based media object</h5>
+                        Cras sit amet nibh putate fringilla. Donec lacinia congue felis in faucibus.
+                        <footer class="blockquote-footer"> <cite title="Source Title">
+                                21 Jul 20163 Comments</cite></footer>
+                      </div>
+                      
+                    </li>
+                    <li class="media my-4">
+                      <img src="http://demowp.cththemes.net/springbook/wp-content/uploads/2016/07/14-50x50.jpg" class="mr-3 rounded-circle" alt="...">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">List-based media object</h5>
+                        Cras sit amet. Donec lacinia congue felis in faucibus.
+                        <footer class="blockquote-footer"> <cite title="Source Title">
+                                21 Jul 20163 Comments</cite></footer>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <img src="http://demowp.cththemes.net/springbook/wp-content/uploads/2016/07/1-50x50.jpg" class="mr-3 rounded-circle" alt="...">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">List-based media object</h5>
+                        Cras sit  in lacinia congue felis in faucibus.
+                        <footer class="blockquote-footer"> <cite title="Source Title">
+                                21 Jul 20163 Comments</cite></footer>
+                      </div>
+                    </li>
+                  </ul>
+        </div>
+</div>
+
+
+
+<div class="row justify-content-start">
+    <div class="col-sm-6 h5">
+      <h5><div class="fas fa-quote-left"></div>Morbi nulla tortor, dignissim at node cursus euismod  <br> uter
+                             dignissim at node cursus euismod est arcu, gravida modest norbi.at node cursus euismod est arcu,at node cursus euismod est arcu,
+         ligula accumsan tempus, ullamcorper a quam suscipit  gravida modest norbi......<div class="fas fa-quote-right"></div></h5></div> 
+         
+<div class="col-sm-6 imgCerle">
+    <!-- normal --> 
+    <div class="ih-item circle effect10 top_to_bottom">
+      <a href="contact.html">
+        <div class="img"><img src="http://demowp.cththemes.net/springbook/wp-content/uploads/2016/07/1-2.jpg" alt="img">
+        </div>
+        <div class="info">
+          <h3>Contact</h3>
+          <p>This content is a little bit longer.</p>
+
+        </div>
+      </a>
+    </div>
+      </div>
+      </div>
+    </div>
+      <footer> 
+        <div class="socialMedia">
+        <a href = "https://www.facebook.com/emilie.jolie.714" target = "_blank"><img src="https://zupimages.net/up/19/10/zw5y.png" alt="facebook" title="facebook"></a>
+        <a href = "https://twitter.com/MilieQ" target = "_blank"><img src="https://zupimages.net/up/19/10/3gu0.png" alt="twitter" title="twitter"></a>
+        <a href = "https://www.pinterest.fr/joseloema/émilie-jolie/?eq=emilie jolie&etslf=6256" target = "_blank"><img src="https://zupimages.net/up/19/11/wzch.png" alt="pinterest" title="pinterest"></a>
+        <a href = "https://www.linkedin.com/in/émilie-jolie-3a876098/" target = "_blank"><img src="https://zupimages.net/up/19/11/s8dq.png" alt="linkedin" title="linkedin"></a>
+        <a href = "https://www.instagram.com/emilie.jolie_officiel/?hl=fr" target = "_blank"><img src="https://zupimages.net/up/19/10/z5ah.png" alt="instagram" title="instagram"></a>
+        </div>
+        <div class="footerContact">
+        <p>5 rue de poissy</p>
+        <div class="dash"></div>
+        <p>06.95.81.05.27</p>
+        <div class="dash"></div>
+        <p>Legal notice</p>
+        <div class="dash"></div>
+        <p>Copyrights Emilie Jolie 2019</p>
+        </div>
+        </footer>
+  
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
 </html>
