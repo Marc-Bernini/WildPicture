@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="contact.css"/>
     <title>Wild Picture - Contact</title>
+    <!-- COOKIESCONSENT-->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      }
+    })});
+    </script>
   </head>
 
   <body>
@@ -39,8 +55,9 @@
 
                           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                               <a class="dropdown-item" href="ss_gallery1.html">Collaboration</a>
-                              <a class="dropdown-item" href="ss_gallery2.html">Personnal project</a>
                               <a class="dropdown-item" href="ss_gallery3.html">Publication</a>
+                              <a class="dropdown-item" href="ss_gallery2.html">Personnal project</a>
+                              
                           </div>
                       </li>
                       <li class="nav-item">
@@ -92,10 +109,9 @@
             </div>
             <div class= DashInPage></div>
         <aside>
-          <div class="map">
-          <iframe src="https://www.google.com/maps/d/embed?mid=1ftCzsXCgkesjvOEG8IQGn2zI59baAL5o" width="640" height="480"></iframe>
-          </div>
-        </div>
+            <div class="map">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1ftCzsXCgkesjvOEG8IQGn2zI59baAL5o" width="640" height="480"></iframe>
+            </div>
         </aside>
     </section>
 
