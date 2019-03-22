@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'ailerons';
+  src:url(./police/Ailerons-Typeface.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'typeScripting';
+  src: url(./police/typewcond_regular.otf) format('otf');
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: 'ailerons';
+}
+
+p {
+  font-family: 'typeScripting';
+}
+
 *{
   border: none;
   padding: 0;
