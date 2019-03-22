@@ -9,41 +9,77 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="styles/ihover.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home.css" />
     <link href = "styles/ihover.css" rel = "stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kalam:300,400|Marck+Script" rel="stylesheet">
-  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
     <title>Wild Picture</title>
+    <link rel="stylesheet" type="text/css" href="cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+"palette": {
+"popup": {
+"background": "#000"
+},
+"button": {
+"background": "#f1d600"
+}
+}
+})});
+</script>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand titre" href="#">Wild Picture</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link h3" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link h3" href="#">gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link h3" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link h3" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled h3" href="#">Contact</a>
-                    </li>
-                </ul>
+        <navbar>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="logo">
+            <a class="navbar-brand" href="#">
+            <img src="https://zupimages.net/up/19/11/8lmw.png" alt="logo">
+            </a>
             </div>
-        </nav>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="testhover1.html" id="navbarDropdownMenuLink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Gallery
+            </a>
+            
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="ss_gallery1.html">Collaboration</a>
+            <a class="dropdown-item" href="ss_gallery3.html">Publication</a>
+            <a class="dropdown-item" href="ss_gallery2.html">Personnal project</a>
+            
+            </div>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+            </li>
+            
+            <li class="nav-item">
+            <a class="nav-link" href="apropos.html">About</a>
+            </li>
+            
+            <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            </ul>
+            </div>
+            </nav>
+            </navbar>
     </header>
 
     <!-- ##########################################"carousel#########################################################################""-->
@@ -115,8 +151,8 @@
     
     <hr>
     <!-- ########################################################"################################################################"""""" -->
-<div class='N'>
-    <div class="row justify-content-start">
+
+    <div class="row justify-content-start air">
                     <div class="col-md-8 ombre">
                         <div class="row justify-content-center h3">
                             <h3>Popup Gallery <span class="badge badge-secondary"></span></h3>
@@ -185,14 +221,20 @@
                   </ul>
         </div>
 </div>
-      
 
-<div class="row ">
+
+
+<div class="row justify-content-start">
+    <div class="col-sm-6 h5">
+      <h5><div class="fas fa-quote-left"></div>Morbi nulla tortor, dignissim at node cursus euismod  <br> uter
+                             dignissim at node cursus euismod est arcu, gravida modest norbi.at node cursus euismod est arcu,at node cursus euismod est arcu,
+         ligula accumsan tempus, ullamcorper a quam suscipit  gravida modest norbi......<div class="fas fa-quote-right"></div></h5></div> 
+         
 <div class="col-sm-6 imgCerle">
-    <!-- normal -->
+    <!-- normal --> 
     <div class="ih-item circle effect10 top_to_bottom">
       <a href="#">
-        <div class="img"><img src="data:image/jpeg;base64,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" alt="img">
+        <div class="img"><img src="http://demowp.cththemes.net/springbook/wp-content/uploads/2016/07/1-2.jpg" alt="img">
         </div>
         <div class="info">
           <h3>Contact</h3>
@@ -203,7 +245,7 @@
     </div>
       </div>
       </div>
-
+ 
   
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -217,5 +259,22 @@
         crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
-
+<footer> 
+    <div class="socialMedia">
+    <a href = "https://www.facebook.com/emilie.jolie.714" target = "_blank"><img src="https://zupimages.net/up/19/10/zw5y.png" alt="facebook" title="facebook"></a>
+    <a href = "https://twitter.com/MilieQ" target = "_blank"><img src="https://zupimages.net/up/19/10/3gu0.png" alt="twitter" title="twitter"></a>
+    <a href = "https://www.pinterest.fr/joseloema/émilie-jolie/?eq=emilie jolie&etslf=6256" target = "_blank"><img src="https://zupimages.net/up/19/11/wzch.png" alt="pinterest" title="pinterest"></a>
+    <a href = "https://www.linkedin.com/in/émilie-jolie-3a876098/" target = "_blank"><img src="https://zupimages.net/up/19/11/s8dq.png" alt="linkedin" title="linkedin"></a>
+    <a href = "https://www.instagram.com/emilie.jolie_officiel/?hl=fr" target = "_blank"><img src="https://zupimages.net/up/19/10/z5ah.png" alt="instagram" title="instagram"></a>
+    </div>
+    <div class="footerContact">
+    <p>5 rue de poissy</p>
+    <div class="dash"></div>
+    <p>06.95.81.05.27</p>
+    <div class="dash"></div>
+    <p>Legal notice</p>
+    <div class="dash"></div>
+    <p>Copyrights Emilie Jolie 2019</p>
+    </div>
+    </footer>
 </html>

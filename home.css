@@ -20,7 +20,9 @@
 .h3{
   font-family: 'Kalam', cursive;
   font-size: 20px;
+
 }
+
 .titre{
   font-family: 'Kalam', cursive;
   font-size: 25px;
@@ -33,7 +35,11 @@
   margin-top: 13px;
 }
 .ombre{
+  padding-top:2%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.air{
+  padding-top:2%;
 }
 .margCarrousel{
   top:45%;
@@ -45,18 +51,37 @@
  margin-top:10px;
 margin-block-end: 50px;
 
-
 } 
 .lien{
   padding-left:60px;
 }
 .social{
-  padding-left:100px;
+  padding-right:100px;
+}
+
+
+
+.fas{ 
+
+  font-size: 50px;
+  color: rgb(199, 202, 206)
+ 
+}
+.h5{  
+  padding-top:4%;
+  padding-left:50px;
+  font-family: 'Kalam', cursive;
 }
 .imgCerle{
-  padding-left:78%;
-
+padding-left: 29%;
+font-family: 'Kalam', cursive;
+width:70%;
 }
+.h2{
+  margin-right: 29%;
+ 
+}
+
 
 .hovereffect { 
     width: 100%;
@@ -148,3 +173,4 @@ margin-block-end: 50px;
   }
 
  
+
