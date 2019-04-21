@@ -84,9 +84,6 @@ div[class="row margin-bottom"] {
   margin-right: auto; 
  
 }
-.ih-item{
-  margin-left: 25%;
-}
 
 .container
 {
@@ -197,10 +194,7 @@ footer {
       margin-top: 15px;
   }
 }
-/* le css des photos ajoutées en js */
-.container{
-  /*margin-left: 20%;*/
-}
+
 .Js{
   margin-top: 4%;
   margin-bottom: 12%;
