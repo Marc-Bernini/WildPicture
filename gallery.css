@@ -59,6 +59,19 @@ h1{
     text-align: center;
 }
 
+.container, .row{
+    padding-left: 0;
+    padding-right: 0;
+}
+.sepia{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 @media screen and (max-width: 1000px)
 {
     button.navbar-toggler
@@ -74,31 +87,21 @@ h1{
     {
         text-align: center;
     }
+
+    .sepia{
+        margin-top: 20%;
+    }
 }
 
-.container, .row{
-    padding-left: 0;
-    padding-right: 0;
-}
-.sepia{
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 25%;
-    margin-bottom: 10%;
-    
-}
 @media screen and (min-width: 1024px){
 
     .sepia{
         display: inline-block;
         width: 30%;
         margin-right: 2%;
-     
-        
     }
 }
+
 @media screen and (min-width: 1200px){
     .sepia:nth-child(1){
         margin-left:3%;
