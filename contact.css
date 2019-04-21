@@ -75,3 +75,9 @@ form {
 .g-recaptcha{
 	display: inline-block;
 }
+
+@media screen and (max-width:500px) {
+	form {
+		width: 100vw;
+	}
+}
